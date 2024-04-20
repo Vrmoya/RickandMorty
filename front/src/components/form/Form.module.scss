@@ -1,0 +1,68 @@
+.containerForm {
+    background-image: url('../../../assets/633262.png'); /* Reemplaza 'ruta/a/tu/imagen/background.jpg' con la ruta real de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ajusta la altura según tus preferencias */
+    display: flex;
+    justify-content:start;
+    align-items: flex-end;
+    flex-direction: column;
+
+    @include sm {
+
+      justify-content: flex-end;
+
+    }
+    @include md {
+      justify-content: flex-end;
+      align-items: center;
+    }
+    
+  }
+  
+  .form {
+    background: rgba(255, 255, 255, 0.1); /* Fondo del formulario con opacidad */
+    border-radius: 10px; /* Borde redondeado del formulario */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+  }
+  
+  /* Estilos adicionales para los elementos del formulario (input, label, p, button) */
+  .label {
+    font-weight: bold;
+  }
+  
+  .input {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .p {
+    color: red;
+    margin: 5px;
+  }
+  
+  .button {
+    background-color: #4f44ed;
+    color: rgb(55, 49, 49);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px $black;
+  }
+
+  .button:hover{
+    background-color:#bf392a;   
+  }
+  

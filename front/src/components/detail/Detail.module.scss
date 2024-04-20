@@ -1,0 +1,32 @@
+.characterDetails {
+
+  @include flex(row, wrap, space-evenly, center);
+
+  @include sm {
+    @include flex(column, nowrap, center, center);
+  }
+
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+
+  .name {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .image {
+    border-radius: 30%;
+    width: 300px;
+    margin-bottom: 20px;
+
+    @include sm {
+      width: 200px;
+    }
+  }
+
+  .description {
+    @include flex(column, nowrap, center, center);
+    font-size: 18px;
+  }
+}

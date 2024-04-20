@@ -1,0 +1,67 @@
+.navContainer {
+  background-color: $black;
+  min-height: 160px;
+  padding: 0px 14px;
+
+  @include flex(row, wrap, space-between, center);
+
+  @include sm {
+    @include flex(column, nowrap, center, center); 
+    padding: 16px;
+  }
+
+  .logo {
+    @include flex(row, nowrap, flex-start, center);
+
+    @include sm {
+      margin-bottom: 1rem; 
+    }
+  }
+
+  .secondSection {
+    @include flex(row, nowrap, space-around, center);
+
+    @include sm {
+      @include flex(column, nowrap, center, center);
+      width: 100%;
+    }
+
+    .wrapperItems {
+      @include flex(row, nowrap, flex-start, center, 12px);
+
+      @include sm {
+        @include flex(column, nowrap, center, center);
+        margin-bottom: 1rem;
+      }
+
+      .linknav {
+        .itemnav {
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  .btnPersonaje {
+    background-color: inherit;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    position:relative;
+    justify-items: auto;
+  
+     
+  }
+  
+  .btnPersonaje:hover {
+
+    background-color: #64b8f0;
+
+  
+  }
+  
+}
+}

@@ -1,0 +1,41 @@
+.cardstyle{
+    border: 2px solid rgb(213, 26, 26);
+    padding: 20px;
+    border-radius: 25px;
+    justify-content: space-between;
+    text-align:center;
+    background-color: aliceblue;
+    width: 200px;
+    height: 500px;
+
+    }
+
+
+.image{
+    width: 150px;
+    border-radius: 50%;
+    border: 10px;
+    border-color: rgb(198, 231, 12);
+}
+.myButton {
+    padding: 0px 20px;
+    background-color: #dd2f10;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 8px;
+  
+}
+.myButton:hover {
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	
+}
+.botones {
+    
+    margin: 10px;
+    gap: 90%
+}

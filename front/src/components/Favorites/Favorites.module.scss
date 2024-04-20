@@ -1,0 +1,43 @@
+.favoritesContainer {
+  background-color: rgb(97, 141, 243);
+  padding: 16px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  height: auto;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.select {
+  background-color: rgb(97, 141, 243);
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: end;
+  gap: 5px;
+}
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
